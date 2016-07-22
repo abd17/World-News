@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rssreader" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cnnicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Homeactivity"
+            android:label="@string/title_activity_homeactivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.MainActivity" />
+
+
+        </activity>
+        <activity
+            android:name=".Aboutactivity"
+            android:label="@string/title_activity_aboutactivity"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CallusActivity"
+            android:label="@string/title_activity_callus"
+            android:parentActivityName=".Homeactivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.Homeactivity" />
+        </activity>
+        <activity
+            android:name=".MyWebsite"
+            android:label="@string/title_activity_my_website"
+            android:parentActivityName=".Homeactivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.Homeactivity" />
+        </activity>
+        <activity
+            android:name=".MyFacebook"
+            android:label="@string/title_activity_my_facebook"
+            android:parentActivityName=".Homeactivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.Homeactivity" />
+        </activity>
+        <activity
+            android:name=".Freesh"
+            android:label="@string/title_activity_freesh"
+            android:parentActivityName=".items" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.items" />
+        </activity>
+        <activity
+            android:name=".Facebookd"
+            android:label="@string/title_activity_facebookd"
+            android:parentActivityName=".Homeactivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rssreader.Homeactivity" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

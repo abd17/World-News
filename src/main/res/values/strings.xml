@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">الاخبار العاجلة</string>
+    <string name="action_settings">الضبط</string>
+    <string name="title_activity_homeactivity">الاخبار العاجلة </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_items">البث المباشر</string>
+    <string name="title_activity_aboutactivity">حـــول</string>
+    <string name="title_activity_main2">ااخر الاخبار</string>
+    <string name="title_activity_fresh">FreshActivity</string>
+    <string name="title_activity_callus">الصور </string>
+    <string name="title_activity_my_website">موقعنا</string>
+    <string name="title_activity_my_facebook">صفحة الفيس بوك</string>
+    <string name="title_activity_my_adapter2">MyAdapter2</string>
+    <string name="title_activity_freesh">البث المباشر</string>
+    <string name="title_section1" />
+    <string name="title_section2" />
+    <string name="title_section3" />
+    <string name="title_activity_facebookd">صفحتنا على الفيس بوك</string>
+    <string name="title_activity_splash_screen">حدث الان</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8320485184835390/5206768461</string>
+
+</resources>

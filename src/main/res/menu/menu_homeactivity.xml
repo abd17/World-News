@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.rssreader.Homeactivity">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/home" />
+    <item android:id="@+id/sprt"
+        android:title="الدعم الفني" />
+    <item android:id="@+id/copy"
+        android:title="  اصدار البرنامج" />
+    <item android:id="@+id/rate"
+        android:title="تقيم البرنامج" />
+    <item android:id="@+id/exit"
+        android:title="خروج" />
+</menu>
